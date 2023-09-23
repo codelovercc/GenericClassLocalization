@@ -1,0 +1,16 @@
+### fr-FR
+GET https://localhost:7291/Localization/HelloWorld
+Accept: application/json
+Accept-Language: fr-FR
+
+
+###
+GET https://localhost:7291/Localization/HelloWorld
+Accept: application/json
+Accept-Language: es-ES
+
+
+###
+GET https://localhost:7291/Localization/HelloWorld
+Accept: application/json
+Accept-Language: zh-CN
