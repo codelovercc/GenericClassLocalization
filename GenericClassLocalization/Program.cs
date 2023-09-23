@@ -53,6 +53,7 @@ app.UseRequestLocalization(options =>
     options.SupportedUICultures = options.SupportedCultures;
     options.DefaultRequestCulture = new RequestCulture(CultureInfo.GetCultureInfo("en-US"));
     options.ApplyCurrentCultureToResponseHeaders = true;
+    options.AddInitialRequestCultureProvider(new IetfMappedRequestCultureProvider { Options = options });
 });
 app.MapControllerRoute(
     name: "default",
