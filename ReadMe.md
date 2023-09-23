@@ -10,6 +10,8 @@ service controls generic class resources file naming.
 Check controller [LocalizationController](GenericClassLocalization/Controllers/LocalizationController.cs) `HelloWorld`
 action.
 
+`GET https://localhost:7291/Localization/HelloWorld`
+
 ## Resources location
 
 At [Resources](GenericClassLocalization/Resources)
